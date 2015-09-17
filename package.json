@@ -17,5 +17,13 @@
     "sass"
   ],
   "author": "Nikita Verkhoshintcev",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.0.4",
+    "gulp-sourcemaps": "^1.5.2"
+  }
 }
