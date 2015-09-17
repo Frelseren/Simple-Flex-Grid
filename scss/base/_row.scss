@@ -1,0 +1,20 @@
+.row {
+	display:	flex;
+	margin:		0 auto;
+	padding:	0 1rem;
+	flex-direction:	column;
+	flex-wrap:		wrap;
+	flex-grow: 		1;
+	@media only screen and ($media-sm) {
+		width: 46rem;
+		flex-direction: row;
+	}
+	@media only screen and ($media-md) {
+		width: 60rem;
+		flex-direction: row;
+	}
+	@media only screen and ($media-lg) {
+		width: 73rem;
+		flex-direction: row;
+	}
+}
