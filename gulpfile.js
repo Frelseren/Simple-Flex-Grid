@@ -27,7 +27,7 @@ gulp.task('watch', function() {
 });
 //CLEAN
 gulp.task('clean', function() {
-	del(['dist', 'css/grid.css*']);
+	del(['dist', 'css/grid.css*', 'css/grid.min.css']);
 });
 //BUILD
 gulp.task('build', ['minify'], function() {

@@ -11,43 +11,41 @@
 .col-sm-11, .col-md-11, .col-lg-11,
 .col-sm-12, .col-md-12, .col-lg-12 {
 	width: 100%;
-  	box-sizing: border-box;
-	padding: 0 1rem;
 }
 
 @media only screen and ($media-sm) {
   .col-sm-1 {
-    width: 8.333%
+    width: 6.5%
   }
   .col-sm-2 {
-    width: 16.667%
+    width: 15%
   }
   .col-sm-3 {
-    width: 25.000%
+    width: 23.5%
   }
   .col-sm-4 {
-    width: 33.333%
+    width: 32%
   }
   .col-sm-5 {
-    width: 41.667%
+    width: 40.5%
   }
   .col-sm-6 {
-    width: 50.000%
+    width: 49%
   }
   .col-sm-7 {
-    width: 58.333%
+    width: 57.5%
   }
   .col-sm-8 {
-    width: 66.667%
+    width: 66%
   }
   .col-sm-9 {
-    width: 75.000%
+    width: 74.5%
   }
   .col-sm-10 {
-    width: 83.333%
+    width: 83%
   }
   .col-sm-11 {
-    width: 91.667%
+    width: 91.5%
   }
   .col-sm-12 {
     width: 100%
@@ -55,37 +53,37 @@
 }
 @media only screen and ($media-md) {
   .col-md-1 {
-    width: 8.333%
+    width: 6.5%
   }
   .col-md-2 {
-    width: 16.667%
+    width: 15%
   }
   .col-md-3 {
-    width: 25.000%
+    width: 23.5%
   }
   .col-md-4 {
-    width: 33.333%
+    width: 32%
   }
   .col-md-5 {
-    width: 41.667%
+    width: 40.5%
   }
   .col-md-6 {
-    width: 50.000%
+    width: 49%
   }
   .col-md-7 {
-    width: 58.333%
+    width: 57.5%
   }
   .col-md-8 {
-    width: 66.667%
+    width: 66%
   }
   .col-md-9 {
-    width: 75.000%
+    width: 74.5%
   }
   .col-md-10 {
-    width: 83.333%
+    width: 83%
   }
   .col-md-11 {
-    width: 91.667%
+    width: 91.5%
   }
   .col-md-12 {
     width: 100%
@@ -93,39 +91,44 @@
 }
 @media only screen and ($media-lg) {
   .col-lg-1 {
-    width: 8.333%
+    width: 6.5%
   }
   .col-lg-2 {
-    width: 16.667%
+    width: 15%
   }
   .col-lg-3 {
-    width: 25.000%
+    width: 23.5%
   }
   .col-lg-4 {
-    width: 33.333%
+    width: 32%
   }
   .col-lg-5 {
-    width: 41.667%
+    width: 40.5%
   }
   .col-lg-6 {
-    width: 50.000%
+    width: 49%
   }
   .col-lg-7 {
-    width: 58.333%
+    width: 57.5%
   }
   .col-lg-8 {
-    width: 66.667%
+    width: 66%
   }
   .col-lg-9 {
-    width: 75.000%
+    width: 74.5%
   }
   .col-lg-10 {
-    width: 83.333%
+    width: 83%
   }
   .col-lg-11 {
-    width: 91.667%
+    width: 91.5%
   }
   .col-lg-12 {
     width: 100%
+  }
+}
+.hide-mobile {
+  @media only screen and ($media-xs) {
+    display: none;
   }
 }
