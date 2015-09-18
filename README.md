@@ -11,7 +11,7 @@ No offset for xs devices.
 <br>
 <b>.hide-mobile</b> - hide column for xs devices.<br>
 <br>
-<b>xs</b> - max-width: 47rem.<br>
+<b>xs</b> - max-width: 48rem.<br>
 <b>sm</b> - min-width: 48rem.<br>
 <b>md</b> - min-width: 62rem.<br>
 <b>lg</b> - min-width: 75rem.<br>
