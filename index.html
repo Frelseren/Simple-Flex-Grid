@@ -4,15 +4,26 @@
 	<title>Simple Flex Grid</title>
 	<link rel="stylesheet" type="text/css" href="css/grid.min.css">
 	<style type="text/css">
-	.row {border: 2px solid #16a085;}div > div{color:#000;text-align:center;border-left:2px solid #8e44ad;border-right:2px solid #8e44ad;font-family:monospace;}
+	.row {border: 2px solid #16a085;}div > div{color:#000;text-align:center;border-left:2px solid #8e44ad;border-right:2px solid #8e44ad;font-family:monospace;}body{margin:0};
 	</style>
 </head>
 <body>
 	<div class="row">
+		<div class="col-sm-12"><p>col-sm-12</p></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-1"><p>col-sm-1</p></div>
+		<div class="col-sm-11"><p>col-sm-11</p></div>
+	</div>
+	<div class="row">
+		<div class="col-sm-2"><p>col-sm-2</p></div>
+		<div class="col-sm-10"><p>col-sm-12</p></div>
+	</div>
+	<div class="row">
 		<div class="col-sm-3"><p>col-sm-3</p></div>
 		<div class="col-sm-3"><p>col-sm-3</p></div>
 		<div class="col-sm-3"><p>col-sm-3</p></div>
-		<div class="col-sm-3 hide-mobile"><p>col-sm-3</p></div>
+		<div class="col-sm-3 hide-mobile"><p>col-sm-3 hide-mobile</p></div>
 	</div>
 	<div class="row">
 		<div class="col-md-1"><p>col-md-1</p></div>

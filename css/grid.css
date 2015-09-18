@@ -124,7 +124,7 @@
   .col-lg-12 {
     width: 100%; } }
 
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 48em) {
   .hide-mobile {
     display: none; } }
 
@@ -164,7 +164,7 @@
 .offset-12 {
   margin-left: 100%; }
 
-@media only screen and (max-width: 47em) {
+@media only screen and (max-width: 48em) {
   .offset-1,
   .offset-2,
   .offset-3,
